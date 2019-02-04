@@ -55,5 +55,17 @@ class Book
         
     }
     
+    public void printPages(){
+        
+            System.out.println(pages);
+        
+    }
+    
+    public void printDetails(){
+        
+            System.out.println("Title: " + title + ", Author: " + author+ ", Pages: " + pages);
+        
+    }
+    
     
 }
