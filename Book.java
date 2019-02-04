@@ -75,7 +75,7 @@ class Book
     
     public void printDetails(){
         
-            System.out.println("Title: " + title + ", Author: " + author+ ", Pages: " + pages);
+            System.out.println("Title: " + title + ", Author: " + author+ ", Pages: " + pages + ", Number: " + number);
         
     }
     
