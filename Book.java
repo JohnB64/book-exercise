@@ -77,6 +77,14 @@ class Book
         
             System.out.println("Title: " + title + ", Author: " + author+ ", Pages: " + pages + ", Number: " + number);
         
+            if (number.length() > 0) {
+             
+                System.out.println("Number = " + number);
+            }
+            else{
+                System.out.println("Number = ZZZ");
+            }
+
     }
     
     
