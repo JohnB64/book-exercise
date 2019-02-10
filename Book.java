@@ -30,7 +30,14 @@ class Book
     
     public void setRefNumber(String ref){
     
-      number = ref;      
+      if(number.length() > 3){
+         number = ref; 
+        }
+        
+      else {
+         System.out.println("Number is less than three characters!"); 
+        }
+      
         
     }
     
