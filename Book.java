@@ -13,6 +13,7 @@ class Book
     private String title;
     private int pages;
     private String number;
+    private int borrowed;
 
     /**
      * Set the author and title fields when this object
@@ -41,6 +42,10 @@ class Book
         
     }
     
+    public void borrow() {
+     borrowed += 1;   
+    }
+    
     public String getAuthor(){
     
             return author;
@@ -60,6 +65,11 @@ class Book
     
             return number;
     
+    }
+    
+    public int getBorrowed(){
+        
+        return borrowed;
     }
     
     public void printAuthor(){
@@ -91,6 +101,8 @@ class Book
             else{
                 System.out.println("Number = ZZZ");
             }
+            
+            System.out.println("This book has been borrowed " + borrowed + " times.");
 
     }
     
